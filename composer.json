@@ -31,5 +31,12 @@
         "classmap": [
             "tests/TestCase.php"
         ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uatthaphon\\ThaiAddress\\ThaiAddressServiceProvider"
+            ]
+        }
     }
 }
