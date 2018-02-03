@@ -75,3 +75,7 @@ app(ThailandSubdistrict::class)->find(1)->district;
 // get province of the subdistrict
 app(ThailandSubdistrict::class)->find(1)->province;
 ```
+
+## Credits
+
+This project wouldn't exist without the awesome database source by [aaronamm/thai-administrative-division-province-district-subdistrict-sql](https://github.com/aaronamm/thai-administrative-division-province-district-subdistrict-sql)
