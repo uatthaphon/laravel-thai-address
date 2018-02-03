@@ -1,6 +1,6 @@
 {
     "name": "uatthaphon/laravel-thai-address",
-    "description": "Thai provincial Database with latitude and longitude.",
+    "description": "Thai provincial database with latitude and longitude.",
     "keywords": ["laravel", "thai address"],
     "license": "MIT",
     "authors": [
