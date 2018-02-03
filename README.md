@@ -39,6 +39,18 @@ php artisan db:seed --class=ThailandAddressSeeder
 ## Usage
 You can use available models for thai address tables
 
+Add psr-4 to your `composer.json` in your project
+
+```json
+"autoload": {
+    "psr-4": {
+        "Uatthaphon\\Models\\": "vendor/uatthaphon/laravel-thai-address/src/models"
+    }
+},
+```
+
+Then
+
 ```php
 use Uatthaphon\Models\ThailandProvince;
 use Uatthaphon\Models\ThailandDistrict;
