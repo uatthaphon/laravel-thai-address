@@ -16,9 +16,9 @@ class ThailandDistrict extends Model
         return $this->belongsTo(ThailandProvince::class, 'province_id', 'id');
     }
 
-    public function subdistricts()
+    public function subDistricts()
     {
-        return $this->hasMany(ThailandSubdistrict::class, 'district_id', 'id');
+        return $this->hasMany(ThailandSubDistrict::class, 'district_id', 'id');
     }
 }
 

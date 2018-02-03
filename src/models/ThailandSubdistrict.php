@@ -4,7 +4,7 @@ namespace Uatthaphon\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ThailandSubdistrict extends Model
+class ThailandSubDistrict extends Model
 {
     protected $fillable = [
         'code', 'name_in_thai', 'name_in_english',
