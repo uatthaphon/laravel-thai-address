@@ -1,6 +1,6 @@
 <?php
 
-namespace Uatthaphon\Models;
+namespace Uatthaphon\ThaiAddress\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
